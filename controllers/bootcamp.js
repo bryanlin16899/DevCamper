@@ -12,7 +12,7 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
     res.status(200).json(res.advancedResults);
 });
 
-// @desc        Get single bootcamps
+// @desc        Get single bootcamp
 // @route       GET /api/v1/bootcamps/:id
 // @access      public
 exports.getBootcamp = asyncHandler(async (req, res, next) => {
